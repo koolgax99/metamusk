@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3AMetaMask_Fox.svg&psig=AOvVaw2IGqVJS5aacxrbFP7heoHG&ust=1677239041309000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCND_x7zIq_0CFQAAAAAdAAAAABAD" height="50px" width="50px" alt="MetaMusk"> -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>MetaMusk</title>
+  <link rel = "icon" href = "./src/fox.png" type = "image/x-icon">
+</head>
+<body>
+  <body>
+    <img src="./src/metamusk.png" alt="MetaMusk" class="foxLogo">
+    <div class="metaMusk">METAM<span style="color:#F6851B">U</span>SK</div>
+    <div class="engg">for CSX and CS<span style="color:#D2A154">PRO</span> Engg Teams.</div>
+  </body>
+  <body class="blackScreen">
+      <!-- <div class="blackScreen2"></div> -->
+      <div class="wrapper">
+        <!-- <div>CSPRO TxnHash </div> -->
+        <div class="row_comp">
+          <label for="chainId" class="chain">Network</label>
+          <select name="chains" id="chainId" class="" style="border-width: 1px;">
+            <option value="1">Ethereum</option>
+            <option value="4">Rinkeby</option>
+          </select>
+        </div>
+        <div class="row_comp">
+          <label for="txHashInput" class="col">Transaction hash</label>
+          <input type="text" id="txHashInput" placeholder="0x456..." class="" style="border-width: 1px;">
+        </div>
+        <div class="row_comp">
+          <button type="button" id="submitButton" onclick="getAIOutput()">What's going on?</button>
+        </div>
+        <div class="row_comp1">
+          ---------------------------------------------------------------------------
+        </div>
+        <br>
+        <div id="AIoutput">
+        </div>
+      </div>
+      <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+      <script src="js/logic.js"></script>
+    </body>
+  </body>
+</html>

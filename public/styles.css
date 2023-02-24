@@ -1,0 +1,126 @@
+/* body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+} */
+
+.blackScreen2{
+  /* background-color: rgba(29, 28, 28, 0.809); */
+  /* background-color:  rgba(6, 3, 15, 0.500); */
+  background-color:rgba(46, 46, 47, 0.69);
+  top:100px;
+  height: 40%;
+  width: 59%;
+  display: fixed;
+  position: fixed;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px;
+  margin: 5px;
+}
+.wrapper {
+  /* background-color:  rgba(6, 3, 15, 0.500); */
+  background-color:rgba(46, 46, 47, 0.69);
+  height: 70%;
+  top:120px;
+  width: 59%;
+  display: fixed;
+  position: fixed;
+  flex-direction: row;
+  align-items: center;
+  /* border: 5px solid; */
+  /* color:grey; */
+  padding: 20px 20px;
+  /* fill: grey; */
+  fill-opacity: 100%;
+}
+
+.wrapper > * {
+  color:#F6851B;
+  font-size: 18px;
+  line-height: 24px; 
+  font-family: 'IBM Plex Mono', monospace;
+  
+}
+
+button, select, input {
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+select, input {
+  margin-left: 10px;
+}
+
+.row_comp{
+  margin-left: 37%;
+  margin-right:10%;
+  padding: 10px;
+  /* color: #F6851B; */
+}
+
+.row_comp1{
+  margin-left: 1%;
+  margin-right:1%;
+  padding: 10px;
+  
+}
+
+.blackScreen {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color:rgba(29, 28, 28); */
+  background-color:  rgb(4, 3, 18);
+  opacity: 100%;
+}
+
+
+.foxLogo{
+  position: fixed;
+  left:16.35%;
+  top:0px;
+  height : 150px;
+  width : 150px;
+}
+
+.metaMusk{
+  color:white;
+  position: fixed;
+  left:23.55%;
+  top:35px;
+  height : 80px;
+  width : 80px;
+  font-family: 'Lekton', sans-serif;
+  font-size: 35px;
+}
+
+.engg{
+  color:white;
+  position: fixed;
+  left:26.55%;
+  top:70px;
+  height : 80px;
+  width : 250px;
+  font-family: 'Lekton', sans-serif;
+  font-size: 15px;
+}
+
+/* .chain{
+  color:white;
+  position: fixed;
+  left:26.55%;
+  top:150px;
+  height : 80px;
+  width : 250px;
+  font-family: 'Lekton', sans-serif;
+  font-size: 23px;
+} */
