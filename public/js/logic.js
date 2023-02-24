@@ -1,7 +1,7 @@
 const buttonText = 'What\'s going on?'
 
 function getAIOutput() {
-  const host = 'https://metamusk.vercel.app'
+  const host = 'https://metamusk-02ii.onrender.com/'
   const txHash= document.getElementById("txHashInput").value
   const chainId = document.getElementById("chainId").value
   const submitButton = document.getElementById("submitButton")
